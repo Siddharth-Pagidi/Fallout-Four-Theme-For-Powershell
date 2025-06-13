@@ -33,6 +33,9 @@ This is the GitHub link so you will need to follow their instructions for instal
   "useAcrylic": true
 },
 ```
+```diff
++ PLEASE VISIT THE GUID_GUIDE.md PAGE TO READ ABOUT HOW TO GENERATE THE GUID.
+```
 3. Hit Ctrl + S to save.
 4. Then, scroll all the way down to the "schemes" section.
 5. Paste the following code in the "schemes" list:
@@ -67,10 +70,15 @@ This is the GitHub link so you will need to follow their instructions for instal
 
 ## Setting up Settings
 At this point, you should still have the terminal settings open because it doesn't close when opening the JSON file.
-Restart the 
-1. On the sidebar, underneath "Profiles", click on Windows Powershell or the app you used.
-2. Then, underneath additional settings, click on "Appearance".
-3. 
-
+1. Restart the terminal application and make your way back to the settings page.
+3. On the sidebar, underneath "Profiles", click on Windows Powershell or the app you used.
+4. Then, underneath additional settings, click on "Appearance".
+5. Then click on the color scheme drop-down, and pick the scheme that is green and says Fallout.
+6. Scroll down to text formatting, click the drop-down, and choose "Bold font with bright colors"
+7. Then, enable acrylic material underneath "Transparency".
+8. Lastly, hit the save button.
+```diff
++ PLEASE VISIT THE FONTS.md PAGE TO LEARN HOW TO ADD THE CUSTOM FALLOUT 4 FONT.
+```
 
 
