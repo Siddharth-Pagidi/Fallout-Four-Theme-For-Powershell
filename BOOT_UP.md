@@ -72,6 +72,7 @@ notepad $PROFILE
 ## Vault Boy Stretched Issue
 1. Go back to the Powershell profile appearance settings.
 2. Change the font size to anything smaller than 12. (When I tried, 10 worked the best for me.)
+3. Hit save, and then restart terminal.
 
 ## Script Running Access Problem
 1. Run Windows Powershell as Administrator.
