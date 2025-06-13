@@ -1,5 +1,5 @@
 # Fallout Four Theme For Powershell
-This repository will show you how to get the Fallout 4 terminal theme on your Windows Powershell. I give half credit to Lukasedv for the base code. Please read the other files when the step comes because you will get stuck otherwise. Also read BOOT_UP.md to see how to make a custom boot up message and add the Vault Boy in the boot up sequence.
+This repository will show you how to get the Fallout 4 terminal theme on your Windows Powershell. I give half credit to Lukasedv for the base code. Please read the other files when the step comes because you will get stuck otherwise. Also read BOOT_UP.md to see how to make a custom boot up message and add the Vault Boy in the boot up sequence. (Read the BOOT_UP.md file last.) Please read everything thoroughly to ensure success.
 
 ## Download Windows Terminal
 To download Windows Terminal, go to this link: https://github.com/microsoft/terminal.
