@@ -13,7 +13,7 @@ This is the GitHub link so you will need to follow their instructions for instal
 
 ## Setting Up The Code
 1. After opening up the file, scroll down to the "list" section inside of "profiles".
-2. Paste the following code in the "list" section list.
+2. Paste the following code in the "list" section list and edit the parts that you want that are shown:
 
 ```json
 {
@@ -25,13 +25,40 @@ This is the GitHub link so you will need to follow their instructions for instal
   {
     "face": "Share Tech Mono"
   },
-  "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "guid": "{GENERATE_YOUR_OWN_GUID}", # Visit my other file on how to do this or go to:
   "hidden": false,
   "intenseTextStyle": "all",
-  "name": "Windows PowerShell",
+  "name": "Windows PowerShell", // Change this to any terminal app you want. For example: Windows Command Prompt
   "scrollbarState": "hidden",
   "useAcrylic": true
 },
 ```
+3. Then, scroll all the way down to the "schemes" section.
+4. Paste the following code in the "schemes" list:
 
+```json
+{
+  "background": "#0C0C0C",
+  "black": "#0C0C0C",
+  "blue": "#07F523",
+  "brightBlack": "#767676",
+  "brightBlue": "#07F523",
+  "brightCyan": "#07F523",
+  "brightGreen": "#07F523",
+  "brightPurple": "#07F523",
+  "brightRed": "#07F523",
+  "brightWhite": "#07F523",
+  "brightYellow": "#07F523",
+  "cursorColor": "#07F523",
+  "cyan": "#07F523",
+  "foreground": "#07F523",
+  "green": "#022000",
+  "name": "Fallout",
+  "purple": "#07F523",
+  "red": "#07F523",
+  "selectionBackground": "#07F523",
+  "white": "#07F523",
+  "yellow": "#07F523"
+}
+```
 
