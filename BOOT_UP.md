@@ -68,3 +68,19 @@ notepad $PROFILE
 3. Scroll down to "Lauch Parameters".
 4. Click on "Launch Parameters".
 5. Click on the drop-down for "Launch Mode", and click "Maximized".
+
+## Vault Boy Stretched Issue
+1. Go back to the Powershell profile appearance settings.
+2. Change the font size to anything smaller than 12. (When I tried, 10 worked the best for me.)
+
+## Script Running Access Problem
+1. Run Windows Powershell as Administrator.
+2. Run the command:
+```
+Get-ExecutionPolicy
+```
+3. If the output sasy "Restricted", run the command:
+```
+Set-ExecutionPolicy RemoteSigned
+```
+4. Close out the application, and re-run terminal.
