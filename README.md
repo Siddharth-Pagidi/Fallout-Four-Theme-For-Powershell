@@ -1,5 +1,5 @@
 # Fallout Four Theme For Powershell
-This repository will show you how to get the Fallout 4 terminal theme on your Windows Powershell. I give half credit to Lukasedv for the base code.
+This repository will show you how to get the Fallout 4 terminal theme on your Windows Powershell. I give half credit to Lukasedv for the base code. Please read the other files when the step comes because you will get stuck otherwise.
 
 ## Download Windows Terminal
 To download Windows Terminal, go to this link: https://github.com/microsoft/terminal.
@@ -13,7 +13,7 @@ This is the GitHub link so you will need to follow their instructions for instal
 
 ## Setting Up The Code
 1. After opening up the file, scroll down to the "list" section inside of "profiles".
-2. Paste the following code in the "list" section list and edit the parts that you want that are shown:
+2. Paste the following code in the "list" section list and edit the parts that you want that are shown: (If the comments are giving errors, feel free to remove them.)
 
 ```json
 {
@@ -25,7 +25,7 @@ This is the GitHub link so you will need to follow their instructions for instal
   {
     "face": "Share Tech Mono"
   },
-  "guid": "{GENERATE_YOUR_OWN_GUID}", # Visit my other file on how to do this or go to:
+  "guid": "{GENERATE_YOUR_OWN_GUID}", // Visit my other file on how to do this or go to:
   "hidden": false,
   "intenseTextStyle": "all",
   "name": "Windows PowerShell", // Change this to any terminal app you want. For example: Windows Command Prompt
@@ -33,8 +33,9 @@ This is the GitHub link so you will need to follow their instructions for instal
   "useAcrylic": true
 },
 ```
-3. Then, scroll all the way down to the "schemes" section.
-4. Paste the following code in the "schemes" list:
+3. Hit Ctrl + S to save.
+4. Then, scroll all the way down to the "schemes" section.
+5. Paste the following code in the "schemes" list:
 
 ```json
 {
@@ -61,4 +62,15 @@ This is the GitHub link so you will need to follow their instructions for instal
   "yellow": "#07F523"
 }
 ```
+6. Hit Ctrl + S again to save.
+7. Then, close out the file.
+
+## Setting up Settings
+At this point, you should still have the terminal settings open because it doesn't close when opening the JSON file.
+Restart the 
+1. On the sidebar, underneath "Profiles", click on Windows Powershell or the app you used.
+2. Then, underneath additional settings, click on "Appearance".
+3. 
+
+
 
